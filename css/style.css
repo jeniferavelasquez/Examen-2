@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;600;700;800;900&display=swap');
+
+body{font-family: 'Catamaran', sans-serif;
+	
+}
+:root{
+	--negro:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+	--fondo-gris:#f5f5f5;
+	--contenido:#898989;
+}
+header{
+	background-color: #fff;
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
+h1{
+	
+	font-weight: bolder;
+	font-size:6rem;
+}
+
+.btn-primary{
+	color:var(--negro);
+	background-color:white;
+	border-color:transparent;
+	padding:2% 4%;
+	border-radius: 100px;
+	font-weight:bolder;
+	text-transform: uppercase;
+}
+
+.carousel-item{
+	background-color:blue;
+}
+
+#conferences , #speakers{
+	color: var(--negro);
+	text-align: center;
+	padding:5%;
+	
+}
+
+h2{
+	font-weight:bolder;
+	font-size:3rem;
+}
+h3{
+	padding:5%;
+	font-weight:600;
+}
+.title-p{
+	margin-bottom: 100px;
+}
+
+ a{
+	color: var(--negro);
+	font-weight:600;
+}
+#meetings{
+	
+	background-color: var(--negro);
+	color:white;
+	padding:5%;
+}
+
+i{
+	font-size:4rem;
+	}
+
+#sponsors{
+	padding:5%;
+	text-align: center;
+	
+}
+.logo{
+	margin:3%;
+}
